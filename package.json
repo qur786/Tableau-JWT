@@ -1,7 +1,8 @@
 {
   "name": "tableau-token",
   "scripts": {
-    "compile": "tsc --build"
+    "prestart": "tsc --build",
+    "start": "node ."
   },
   "license": "UNLICENSED",
   "main": "dist/tsc/index.js",
