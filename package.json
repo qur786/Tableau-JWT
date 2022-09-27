@@ -1,0 +1,13 @@
+{
+  "name": "tableau-token",
+  "scripts": {
+    "compile": "tsc --build"
+  },
+  "license": "UNLICENSED",
+  "main": "dist/tsc/index.js",
+  "type": "commonjs",
+  "devDependencies": {
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.2"
+  }
+}
